@@ -66,7 +66,7 @@ document.write(bool1,"\n")
 let firstName = 'Сергій ';
 let middleName = 'Валерійович ';
 let lastName = 'Вітик ';
-let person = lastName + firstName + middleName;
+let person = lastName + " " + firstName + " " + middleName;
 console.log(person);
 
 let a = 100;
@@ -80,5 +80,5 @@ let firstNameimput = prompt();
 console.log(firstNameimput);
 let lastNameimput =prompt()
 console.log(lastNameimput)
-let howMuchCM = prompt()
+let howMuchCM = +prompt()
 console.log(howMuchCM)
