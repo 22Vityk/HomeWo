@@ -1,27 +1,27 @@
 let str = "hello";
 console.log(str);
 // alert(str)
-document.write(str,"\n")
+document.write(str,"\t")
 
 let str1 = "owu";
 console.log(str1);
 // alert(str1)
-document.write(str1,"\n")
+document.write(str1,"\t")
 
 let str2 = "com";
 console.log(str2);
 // alert(str2)
-document.write(str2,"\n")
+document.write(str2,"\t")
 
 let str3 = "ua";
 console.log(str3);
 // alert(str3)
-document.write(str3,"\n")
+document.write(str3,"\t")
 
 let nub =  1;
 console.log(nub);
 // alert(nub)
-document.write(nub,"\n")
+document.write(nub,"\t")
 
 let nub1 = 10
 console.log(nub1);
@@ -66,7 +66,7 @@ document.write(bool1,"\n")
 let firstName = 'Сергій ';
 let middleName = 'Валерійович ';
 let lastName = 'Вітик ';
-let person = lastName + " " + firstName + " " + middleName;
+let person = lastName+""+firstName+""+middleName;
 console.log(person);
 
 let a = 100;
@@ -76,9 +76,10 @@ console.log(typeof b);
 let c = a === b;
 console.log(typeof c);
 
-let firstNameimput = prompt();
+let firstNameimput = prompt("Твоє імя?");
 console.log(firstNameimput);
-let lastNameimput =prompt()
+alert(firstNameimput)
+let lastNameimput =prompt('Твоя фамілія')
 console.log(lastNameimput)
-let howMuchCM = +prompt()
+let howMuchCM = +prompt('Який твій зріст')
 console.log(howMuchCM)
