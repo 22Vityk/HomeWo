@@ -1,9 +1,7 @@
 // /1 - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-// function calc(a,b){ або => a*b
-//      return a * b
-// }
+// let calc = (a,b)=> a*b;
+// console.log(calc(32,323))
 
-//console.log(foo(20, 30))
 //2 - створити функцію яка обчислює та повертає площу кола з радіусом r
 // function calc(p,r){
 //     return p * (r * r)
@@ -18,7 +16,7 @@
 // let res = calc(3.14,5,6)
 // console.log(res)
 
- //4 - створити функцію яка приймає масив та виводить кожен його елемент
+//4 - створити функцію яка приймає масив та виводить кожен його елемент
 // let users = [
 //     {name: 'vasya', age: 31, status: true},
 //     {name: 'petya', age: 33, status: false},
@@ -51,7 +49,7 @@
 // }
 // list("Hello")
 
-//7 - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+// 7 - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 // function print_li(pazda,count){
 //     let text = ""
 //     for (let i = 0 ; i < count; i++) {
@@ -59,7 +57,7 @@
 //     }
 //     document.write("<ul>"+text+"</ul>")
 // }
-// print_li("Vityk wa cat",4)
+// print_li("Vityk a cat",3)
 
 //8 - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 //  let users = [true, `vasya`,31]
@@ -91,30 +89,31 @@
 // ]
 // function  foo(arr){
 //     for(const arrele of arr){
-//         document.write(`<div>${arrele.id}${arrele.name}${arrele.age}</div>`)
+//         document.write(`<div>№ ${arrele.id}. Name ${arrele.name} Age ${arrele.age}</div>`)
 //     }
 // }
 // foo(array)
+
+
+
 //10 - створити функцію яка повертає найменьше число з масиву
-//  let arr = [1,2,4]
-// function foo (array){
-//     let min = [0]
-//     for (const minelem of arr){
-//         if (minelem < min){
-//             min = minelem
+//  let arr = [1,2,4];
+// function sss (array) {
+//     let minimym = arr[0];
+//     for(let i=0;i<array.length;i++){
+//         if(minimym > array[i]) minimym=array[i]
 //         }
+//     console.log(minimym)
 //     }
-//     return min
-// }
-// console.log(foo(arr))
+// sss(arr)
 
 //11 - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 // let nub = [1,2,10]
-// function foo(arr){
-//     let min= 0
-//     for(const eee of nub){
-//         min += eee;
+// function saa(nubv){
+//     let x = 0
+//     for (const nub1 of nub) {
+//        x += nub1
 //     }
-//     return min
+//     return x
 // }
-// console.log(foo())
+// console.log(saa(nub))
