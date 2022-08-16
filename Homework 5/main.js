@@ -97,15 +97,17 @@
 
 
 //10 - створити функцію яка повертає найменьше число з масиву
-//  let arr = [1,2,4];
-// function sss (array) {
-//     let minimym = arr[0];
-//     for(let i=0;i<array.length;i++){
-//         if(minimym > array[i]) minimym=array[i]
+//   let arr = [1,2,0,4];
+//     function asd (arr){
+//         let min = arr[0];
+//         for (const nub of arr) {
+//             if (min > nub) min = nub
 //         }
-//     console.log(minimym)
+//             return min;
+//
 //     }
-// sss(arr)
+// console.log(asd(arr))
+
 
 //11 - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 // let nub = [1,2,10]
