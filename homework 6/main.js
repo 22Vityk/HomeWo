@@ -95,8 +95,6 @@
 //       }
 // })
 // console.log(x)
-
-
 // 9 - описати колоду карт
 // let cards = [
 //      {cardSuit: 'clubs',value: 'Ace',color:'black'},
@@ -157,8 +155,8 @@
 //      {cardSuit:'Spades',value: 'Queen',color: 'black'},
 //      {cardSuit:'Spades',value: 'King',color: 'black'},
 // ]
-// // - знайти піковий туз
-// let x = cards.filter(numl => numl.color == "red")
+// - знайти піковий туз
+// let x = cards.filter((numl) => numl.cardSuit == 'Spades' && (numl.value =='Ace'))
 // console.log(x)
 
 // - всі шістки
@@ -173,8 +171,8 @@
 // let x = cards.filter(numl => numl.cardSuit == 'diamonds')
 // console.log(x)
 
-// - всі трефи від 9 та більше
-// let x = cards.filter((num,bad) => num.cardSuit == 'Spades' && !(num.value <= 9))
+// // - всі трефи від 9 та більше
+// let x = cards.filter((num) => num.cardSuit == 'Spades' && !(num.value <= 8))
 // console.log(x)
 
 
